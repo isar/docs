@@ -65,5 +65,5 @@ await isar.writeTxn((isar) async {
   isar.contacts.put(contact);
 });
 
-final allContacts = isar.contacts.where().findAll();
+final allContacts = await isar.contacts.where().findAll();
 ```
