@@ -36,7 +36,7 @@ class Product {
 | 8 | Computer | 650 |
 | 9 | Soap | 2 |
 
-A query that tries to find all products that cost more than 30€ has to search through all nine rows. That's not an issue for nine rows but it will become a problem for 100k rows.
+A query that tries to find all products that cost more than €30 has to search through all nine rows. That's not an issue for nine rows but it will become a problem for 100k rows.
 
 ```dart
 final expensiveProducts = await isar.products.where()

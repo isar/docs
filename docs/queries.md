@@ -289,7 +289,7 @@ If you need the results to be sorted, consider using an index for that purpose. 
 
 :::
 
-Sometimes it's not possible of useful to use an index for sorting. For such cases, you should use indexes to reduce the number of resulting entries as much as possible.
+Sometimes it's not possible or useful to use an index for sorting. For such cases, you should use indexes to reduce the number of resulting entries as much as possible.
 
 ## Unique values
 

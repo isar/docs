@@ -18,7 +18,7 @@ You can use the default config or provide some of the following parameters.
 | Config          | Description                                                                                                                                                                                                |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `name`          | You can open multiple instances with distinct names. By default, `"isar"` is used.                                                                                                                         |
-| `path`          | The storage location for this instance. You can pass a relative or absolute path. By default, `NSDocumentDirectory` is used for iOS and `getDataDirectory` for Android. The final location is `path/name`. |
+| `directory`     | The storage location for this instance. You can pass a relative or absolute path. By default, `NSDocumentDirectory` is used for iOS and `getDataDirectory` for Android. The final location is `path/name`. |
 | `maxSize`       | Sets the maximum instance size. The default is 1GB and you probably don't need to change it.                                                                                                               |
 | `encryptionKey` | Optional 32 byte (256bit) key to encrypt the database                                                                                                                                                      |
 
