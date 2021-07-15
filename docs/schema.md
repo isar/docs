@@ -42,7 +42,7 @@ You can either set ids yourself or by setting them to `null` request Isar to ass
 
 ### Supported types
 
-Isar supports supports the following data types:
+Isar supports the following data types:
 - `bool`
 - `int`
 - `double`
